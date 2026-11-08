@@ -1,0 +1,8 @@
+route: unrouted
+host: unknown.invalid
+basis: no registered project mentions unknown.invalid
+error: only http and https URLs with a host and no credentials can be captured: file:///etc/passwd
+route: ambiguous
+host: localhost
+candidates: demo,other
+basis: domain map config/lavish-url-domains lists one domain for several projects

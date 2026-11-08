@@ -1,0 +1,111 @@
+runtime {
+  hostile: undefined,
+  heading: {
+    enhancer: 'default',
+    kind: 'heading h1',
+    label: 'Local review',
+    data: { level: '1' },
+    context: []
+  },
+  odoo: {
+    enhancer: 'odoo',
+    kind: 'Odoo record',
+    label: 'product.template#46',
+    data: {
+      oe_model: 'product.template',
+      oe_id: '46',
+      oe_field: '',
+      oe_type: '',
+      main_object: ''
+    },
+    context: []
+  }
+}
+mobile-color rgb(255, 0, 0)
+queued Lavish
+Annotate
+Conversation
+2 queued
+QUEUED
+<update-text>
+“Update Text: heading h1 “Local review””
+Update the text of heading h1 “Local review” on http://localhost:18765/ (captured at mobile width).
+
+Context data:
+{
+  "chip": "update-text",
+  "url": "http://localhost:18765/",
+  "viewport": "mobile",
+  "target": {
+    "enhancer": "default",
+    "kind": "heading h1",
+    "label": "Local review",
+    "data": {
+      "level": "1"
+    }
+  },
+  "context": [],
+  "note": ""
+}
+QUEUED
+<mobile-bug>
+“Mobile Bug: heading h1 “Local review””
+Fix the mobile bug on heading h1 “Local review” on http://localhost:18765/ (captured at mobile width).
+
+Context data:
+{
+  "chip": "mobile-bug",
+  "url": "http://localhost:18765/",
+  "viewport": "mobile",
+  "target": {
+    "enhancer": "default",
+    "kind": "heading h1",
+    "label": "Local review",
+    "data": {
+      "level": "1"
+    }
+  },
+  "context": [],
+  "note": ""
+}
+Attach images
+Send & End
+Send to Agent
+locator.click: Timeout 30000ms exceeded.
+Call log:
+[2m  - waiting for getByRole('button', { name: 'Send to Agent', exact: true })[22m
+[2m    - locator resolved to <button id="send" class="button">Send to Agent</button>[22m
+[2m  - attempting click action[22m
+[2m    2 × waiting for element to be visible, enabled and stable[22m
+[2m      - element is inert[22m
+[2m    - retrying click action[22m
+[2m    - waiting 20ms[22m
+[2m    2 × waiting for element to be visible, enabled and stable[22m
+[2m      - element is inert[22m
+[2m    - retrying click action[22m
+[2m      - waiting 100ms[22m
+[2m    57 × waiting for element to be visible, enabled and stable[22m
+[2m       - element is inert[22m
+[2m     - retrying click action[22m
+[2m       - waiting 500ms[22m
+
+    at /home/vince/.no-mistakes/worktrees/7cd881448928/01M6YDD4JT3R3M9GTXBQ2XQMBS/.live-lavish/drive.cjs:2:919 {
+  log: [
+    "  - waiting for getByRole('button', { name: 'Send to Agent', exact: true })",
+    '    - locator resolved to <button id="send" class="button">Send to Agent</button>',
+    '  - attempting click action',
+    '    2 × waiting for element to be visible, enabled and stable',
+    '      - element is inert',
+    '    - retrying click action',
+    '    - waiting 20ms',
+    '    2 × waiting for element to be visible, enabled and stable',
+    '      - element is inert',
+    '    - retrying click action',
+    '      - waiting 100ms',
+    '    57 × waiting for element to be visible, enabled and stable',
+    '       - element is inert',
+    '     - retrying click action',
+    '       - waiting 500ms'
+  ],
+  name: 'TimeoutError'
+}

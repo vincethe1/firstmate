@@ -1,0 +1,83 @@
+runtime {
+  hostile: undefined,
+  heading: {
+    enhancer: 'default',
+    kind: 'heading h1',
+    label: 'Local review',
+    data: { level: '1' },
+    context: []
+  },
+  odoo: {
+    enhancer: 'odoo',
+    kind: 'Odoo record',
+    label: 'product.template#46',
+    data: {
+      oe_model: 'product.template',
+      oe_id: '46',
+      oe_field: '',
+      oe_type: '',
+      main_object: ''
+    },
+    context: []
+  }
+}
+queued Lavish
+EDITOR
+Annotate
+Conversation
+QUEUED
+<fix-layout>
+“Fix Layout: heading h1 “Local review””
+Fix the layout of heading h1 “Local review” on http://localhost:18765/.
+
+Context data:
+{
+  "chip": "fix-layout",
+  "url": "http://localhost:18765/",
+  "viewport": "desktop",
+  "target": {
+    "enhancer": "default",
+    "kind": "heading h1",
+    "label": "Local review",
+    "data": {
+      "level": "1"
+    }
+  },
+  "context": [],
+  "note": ""
+}
+Attach images
+Send & End
+Send to Agent
+sent Lavish
+EDITOR
+Annotate
+Conversation
+YOU
+<fix-layout>
+“Fix Layout: heading h1 “Local review””
+Fix the layout of heading h1 “Local review” on http://localhost:18765/.
+
+Context data:
+{
+  "chip": "fix-layout",
+  "url": "http://localhost:18765/",
+  "viewport": "desktop",
+  "target": {
+    "enhancer": "default",
+    "kind": "heading h1",
+    "label": "Local review",
+    "data": {
+      "level": "1"
+    }
+  },
+  "context": [],
+  "note": ""
+}
+👀
+🛠️
+✅
+Working...
+Attach images
+Send & End
+Send to Agent

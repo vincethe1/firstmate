@@ -1,0 +1,75 @@
+snapshot: /home/vince/.no-mistakes/worktrees/7cd881448928/01M6YDD4JT3R3M9GTXBQ2XQMBS/.live-lavish/home/.lavish/snapshots/localhost-18765-20261108T203657Z.html
+url: http://localhost:18765/
+route: project
+host: localhost
+project: demo
+basis: domain map config/lavish-url-domains
+lifecycle: feedback
+--- feedback ---
+SESSION-ENDING MESSAGE: (none)
+
+declared_items: 2
+presented_items: 2
+malformed_items: 0
+complete: yes
+lifecycle: feedback
+session_ended: (unset)
+annotation_count: 2
+captain_message_count: 0
+
+ANNOTATIONS
+ANNOTATION 1 of 2
+element_uid: 1
+element_selector: body > h1
+tag: update-text
+text:
+| Update Text: heading h1 “Local review”
+prompt:
+| Update the text of heading h1 “Local review” on http://localhost:18765/ (captured at mobile width).
+| 
+| Context data:
+| {
+|   "chip": "update-text",
+|   "url": "http://localhost:18765/",
+|   "viewport": "mobile",
+|   "target": {
+|     "enhancer": "default",
+|     "kind": "heading h1",
+|     "label": "Local review",
+|     "data": {
+|       "level": "1"
+|     }
+|   },
+|   "context": [],
+|   "note": ""
+| }
+ANNOTATION 2 of 2
+element_uid: 1
+element_selector: body > h1
+tag: mobile-bug
+text:
+| Mobile Bug: heading h1 “Local review”
+prompt:
+| Fix the mobile bug on heading h1 “Local review” on http://localhost:18765/ (captured at mobile width).
+| 
+| Context data:
+| {
+|   "chip": "mobile-bug",
+|   "url": "http://localhost:18765/",
+|   "viewport": "mobile",
+|   "target": {
+|     "enhancer": "default",
+|     "kind": "heading h1",
+|     "label": "Local review",
+|     "data": {
+|       "level": "1"
+|     }
+|   },
+|   "context": [],
+|   "note": ""
+| }
+END ANNOTATIONS
+END LAVISH RESULT (2 of 2)
+--- end feedback ---
+filed: lavish-review-feedback-localhost-37
+project: demo

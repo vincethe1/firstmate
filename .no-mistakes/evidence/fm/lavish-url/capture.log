@@ -1,0 +1,11 @@
+snapshot: /home/vince/.no-mistakes/worktrees/7cd881448928/01M6YDD4JT3R3M9GTXBQ2XQMBS/.live-lavish/home/.lavish/snapshots/localhost-18765-20261108T203608Z.html
+url: http://localhost:18765/
+viewport: desktop 1440x900
+enhancers: default,odoo
+session-url: http://127.0.0.1:18766/session/c29dc1d33c2a932d
+source-id: lavish-c29dc1d33c2a932d
+armed: lavish-c29dc1d33c2a932d
+route: project
+host: localhost
+project: demo
+basis: domain map config/lavish-url-domains

@@ -1,0 +1,34 @@
+[
+  {
+    enhancer: 'teatop',
+    kind: 'drink card',
+    label: 'Fresh Milk Trifecta',
+    data: {
+      name: 'Fresh Milk Trifecta',
+      price: '$7.75',
+      surface: 'homepage catalog'
+    },
+    context: [ [Object] ]
+  },
+  {
+    enhancer: 'teatop',
+    kind: 'drink card',
+    label: 'Fresh Milk Trifecta',
+    data: {
+      name: 'Fresh Milk Trifecta',
+      price: '$7.75',
+      surface: 'homepage catalog'
+    },
+    context: [ [Object] ]
+  },
+  {
+    enhancer: 'teatop',
+    kind: 'menu category',
+    label: 'Milk Tea',
+    data: {
+      category: 'milk tea',
+      href: 'https://www.teatop82ranch.com/shop/category/milk-tea-22'
+    },
+    context: [ [Object] ]
+  }
+]
