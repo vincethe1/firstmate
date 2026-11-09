@@ -1,0 +1,1 @@
+error: only http and https URLs with a host and no credentials can be captured: javascript:alert(1)

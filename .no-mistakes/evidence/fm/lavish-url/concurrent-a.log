@@ -1,0 +1,11 @@
+snapshot: /home/vince/.no-mistakes/worktrees/7cd881448928/01M6YT3C4740CFVA1W2FB0MV5E/.test-live/fm/.lavish/snapshots/127-0-0-1-18765-20261109T001321Z.html
+url: http://127.0.0.1:18765
+viewport: desktop 1440x900
+enhancers: default
+session-url: http://127.0.0.1:18766/session/240eba2d49043e07
+source-id: lavish-240eba2d49043e07
+armed: lavish-240eba2d49043e07
+route: project
+host: 127.0.0.1
+project: example
+basis: domain map config/lavish-url-domains

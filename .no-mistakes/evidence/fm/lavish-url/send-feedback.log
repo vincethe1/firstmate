@@ -1,0 +1,19 @@
+page:
+  title: Lavish Editor
+  refs: 11
+snapshot:
+uid=g6:2_0 RootWebArea "Lavish Editor" url="http://127.0.0.1:18766/session/50c622e82bc42380"
+  uid=g6:2_1 "Lavish"
+  uid=g6:2_2 "EDITOR"
+  uid=g6:2_3 button "Annotate" description="Toggle annotate/explore mode (⌘I / Ctrl+I)" disableable disabled pressed
+  uid=g6:2_4 button "More" disableable disabled expandable haspopup="menu"
+  uid=g6:2_21 complementary
+    uid=g6:2_22 heading "Conversation" level="2"
+  uid=g6:6_0 "Session ended."
+  uid=g6:6_1 LineBreak "
+"
+  uid=g6:6_2 "Return to your agent to continue."
+  uid=g6:6_3 "/home/vince/.no-mistakes/worktrees/7cd881448928/01M6YT3C4740CFVA1W2FB0MV5E/.test-live/fm/.lavish/snapshots/127-0-0-1-18765-20261109T001204Z.html"
+help[2]:
+  Run `chrome-devtools-axi click @g6:2_3` to click the "Annotate" button
+  Use `chrome-devtools-axi eval <expr>` for JS expressions. For multi-statement code, pass a function: `eval "() => { ...; return result }"`

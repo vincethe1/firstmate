@@ -1,0 +1,85 @@
+snapshot: /home/vince/.no-mistakes/worktrees/7cd881448928/01M6YT3C4740CFVA1W2FB0MV5E/.test-live/fm/.lavish/snapshots/127-0-0-1-18765-20261109T001204Z.html
+url: http://127.0.0.1:18765
+route: project
+host: 127.0.0.1
+project: example
+basis: domain map config/lavish-url-domains
+lifecycle: feedback
+--- feedback ---
+SESSION-ENDING MESSAGE: (none)
+
+declared_items: 1
+presented_items: 1
+malformed_items: 0
+complete: yes
+lifecycle: feedback
+session_ended: true
+annotation_count: 1
+session_ending_message_count: 0
+
+ANNOTATIONS
+ANNOTATION 1 of 1
+element_uid: 1
+element_selector: aside#fm-lavish-url-panel > details > div:nth-of-type(1) > button:nth-of-type(3)
+tag: mobile-bug
+text:
+| Mobile Bug: the whole page
+prompt:
+| Fix the mobile bug on the whole page on http://127.0.0.1:18765 (captured at mobile width).
+| 
+| Context data:
+| {
+|   "chip": "mobile-bug",
+|   "url": "http://127.0.0.1:18765",
+|   "viewport": "mobile",
+|   "target": null,
+|   "context": [],
+|   "note": ""
+| }
+END ANNOTATIONS
+END LAVISH RESULT (1 of 1)
+--- end feedback ---
+filed: lavish-review-feedback-127-0-0-1-73
+project: example
+snapshot: /home/vince/.no-mistakes/worktrees/7cd881448928/01M6YT3C4740CFVA1W2FB0MV5E/.test-live/fm/.lavish/snapshots/127-0-0-1-18765-20261109T001204Z.html
+url: http://127.0.0.1:18765
+route: project
+host: 127.0.0.1
+project: example
+basis: domain map config/lavish-url-domains
+lifecycle: feedback
+--- feedback ---
+SESSION-ENDING MESSAGE: (none)
+
+declared_items: 1
+presented_items: 1
+malformed_items: 0
+complete: yes
+lifecycle: feedback
+session_ended: true
+annotation_count: 1
+session_ending_message_count: 0
+
+ANNOTATIONS
+ANNOTATION 1 of 1
+element_uid: 1
+element_selector: aside#fm-lavish-url-panel > details > div:nth-of-type(1) > button:nth-of-type(3)
+tag: mobile-bug
+text:
+| Mobile Bug: the whole page
+prompt:
+| Fix the mobile bug on the whole page on http://127.0.0.1:18765 (captured at mobile width).
+| 
+| Context data:
+| {
+|   "chip": "mobile-bug",
+|   "url": "http://127.0.0.1:18765",
+|   "viewport": "mobile",
+|   "target": null,
+|   "context": [],
+|   "note": ""
+| }
+END ANNOTATIONS
+END LAVISH RESULT (1 of 1)
+--- end feedback ---
+already-filed: lavish-review-feedback-127-0-0-1-73
